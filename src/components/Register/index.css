@@ -1,0 +1,25 @@
+.Register {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Register>h2 {
+    font-weight: bolder;
+}
+
+.LoginLink {
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.LoginLink:hover {
+    color: #b4b4b4;
+}
