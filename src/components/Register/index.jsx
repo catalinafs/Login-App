@@ -5,8 +5,11 @@ import './index.css';
 export const Register = () => {
   return (
     <div className='Register'>
-      <h2>Register</h2>
-      <Link to='/' className='LoginLink'><h2>Login</h2></Link>
+      <div className='Maincontent'>
+        <h2>Register</h2>
+        <h3>Please, go to login🔽 to Register</h3>
+        <Link to='/' className='LoginLink'>Login</Link>
+      </div>
     </div>
   );
 }

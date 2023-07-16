@@ -59,8 +59,7 @@ export const Login = () => {
     <div className='body-login'>
       <div className='container-login'>
         <div className='login'>
-          <Link to='/register' className='RegisterLogin' >Register</Link>
-          Login
+          <h2>Login</h2>
 
           {isLogin ? ` Hola ${decodedToken?.username}` : ' Por favor, Logeate'}
 
@@ -71,6 +70,8 @@ export const Login = () => {
             </div>
             <button type='submit'>login</button>
           </form>
+
+          <Link to='/register' className='RegisterLogin' >Register</Link>
         </div>
       </div>
     </div>
