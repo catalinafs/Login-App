@@ -62,7 +62,7 @@ export const Login = () => {
         <div className='login'>
           <h2>Login</h2>
 
-          {isLogin ? ` Hola ${decodedToken?.username}` : ' Por favor, Logeate'}
+          {isLogin ? ` Hola ${decodedToken?.username}` : ' Please Login'}
 
           <form onSubmit={(event) => handleLogin(event)} className='Form'>
             <div className='container-inputs'>
