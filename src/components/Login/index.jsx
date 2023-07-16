@@ -3,6 +3,7 @@ import { Context } from '../../context/index.jsx';
 import { Link } from 'react-router-dom';
 import { useJwt } from 'react-jwt';
 import './index.css';
+import { AllRightsReserved } from '../AllRightsReserved/index.jsx';
 
 export const Login = () => {
   const { isLogin, setIsLogin } = useContext(Context);
@@ -73,6 +74,7 @@ export const Login = () => {
 
           <Link to='/register' className='RegisterLogin' >Register</Link>
         </div>
+        <AllRightsReserved />
       </div>
     </div>
   );
